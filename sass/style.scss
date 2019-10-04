@@ -564,3 +564,140 @@ li {
     font-size: 14px;
     line-height: 28px;
 }
+
+// Blog.html
+
+.col-2__blog {
+    width: 100%;
+    height: 100vh;
+    background-color: #b4b7b8;
+
+    overflow-y: scroll;
+}
+
+.col-2__post-container {
+    // padding: 0 0 25px 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.col-2__post {
+    // margin: 25px 25px 0 0;
+
+    width: 295px;
+}
+
+.post__img {
+    height: 320px;
+    background: url('../img/test.jpg') no-repeat center/cover;
+}
+
+.post__description {
+    padding: 20px;
+
+    height: 180px;
+    background-color: #fff;
+
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.post__title {
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.post__text {
+    max-width: 250px;
+
+    color: #9c9c9c;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.post__info {
+    padding: 12px 0 0 20px;
+
+    height: 50px;
+    background-color: #fff;
+
+    color: #9a9a9a;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.post__title-link {
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.post__comments-link {
+    color: #9a9a9a;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.post__comments {
+    padding-right: 15px;
+
+    display: inline-block;
+
+    &::before {
+        padding-right: 5px;
+
+        content: '\f075';
+        font-family: 'icomoon';
+        color: #818181;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.post__date {
+    display: inline-block;
+
+    &::before {
+        padding-right: 5px;
+
+        content: '\f073';
+        font-family: 'icomoon';
+        color: #818181;
+        font-size: 14px;
+    }
+}
+
+.post__video {
+    margin: -10px 0 -12px;
+}
+
+.col-2__link-post {
+    min-height: 140px;
+    background-color: #1ab5b3;
+}
+
+.link-post__inner {
+    padding: 35px 0 0 25px;
+
+    max-width: 270px;
+    text-align: center;
+}
+
+.link-post_text {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.link-post__link {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 22px;
+    text-decoration: underline;
+}
