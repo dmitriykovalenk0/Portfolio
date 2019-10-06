@@ -766,7 +766,7 @@ li {
 .aside-post__text {
   color: #9c9c9c;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 .slider {
@@ -785,7 +785,7 @@ li {
 
 .slick-btn {
   position: absolute;
-  top: 42%;
+  top: 80%;
   z-index: 3;
   width: 40px;
   height: 40px;
@@ -793,7 +793,6 @@ li {
   font-family: 'icomoon';
   color: #fff;
   background-color: #1ab5b3;
-  border: none;
 }
 
 .slick-btn:before {
@@ -806,6 +805,10 @@ li {
 
 .slick-btn:focus {
   outline: none;
+}
+
+.slick-btn:hover {
+  background-color: #1ab5b3;
 }
 
 .slick-btn.slick-disabled {
@@ -827,97 +830,5 @@ li {
 
 .slick-prev:before {
   content: "\f053";
-}
-
-.col-2__contacts {
-  padding: 25px 0 0 25px;
-  height: 100vh;
-  background: url("../img/map.png") no-repeat center/cover;
-}
-
-.col-2__form-container {
-  padding: 25px;
-  width: 782px;
-  height: 467px;
-  background-color: #fff;
-}
-
-.form-container__top {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.post__text--width100 {
-  max-width: 720px;
-  padding: 5px 0 25px;
-}
-
-.form-container__bot {
-  padding-top: 25px;
-}
-
-.col-2__form {
-  padding-top: 20px;
-}
-
-.form__container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 347px 364px;
-      grid-template-columns: 347px 364px;
-  -ms-grid-rows: 59px 59px 59px;
-      grid-template-rows: 59px 59px 59px;
-  grid-gap: 10px;
-}
-
-.form__input {
-  padding-left: 20px;
-  width: 347px;
-  height: 59px;
-  border: 1px solid #eaeaea;
-  outline: none;
-  color: #848484;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-.input__name {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: 1 / 1 / 1 / 1;
-}
-
-.input__email {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: 2 / 1 / 2 / 1;
-}
-
-.input__website {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: 3 / 1 / 3 / 1;
-}
-
-.form__textarea {
-  padding: 15px 0 0 20px;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  grid-area: 1 / 2 / 3 / 2;
-  resize: none;
-  border: 1px solid #eaeaea;
-  outline: none;
-  color: #848484;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-.form__btn {
-  border: 1px solid #eaeaea;
-  background-color: #1ab5b3;
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 30px;
-  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */

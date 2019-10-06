@@ -53,6 +53,9 @@ li {
 
 .col-1 {
     flex-basis: 22%;
+    height: 100vh;
+
+    overflow-y: scroll;
 }
 
 .col-1__header {
@@ -798,7 +801,7 @@ li {
 .aside-post__text {
     color: #9c9c9c;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 .slider {
@@ -818,7 +821,7 @@ li {
 
 .slick-btn {
     position: absolute;
-    top: 80%;
+    top: 42%;
     z-index: 3;
 
     width: 40px;
@@ -828,6 +831,7 @@ li {
     font-family: 'icomoon';
     color: #fff;
     background-color: #1ab5b3;
+    border: none;
 
     &:before {
         position: absolute;
@@ -838,10 +842,6 @@ li {
 
     &:focus {
         outline: none;
-    }
-
-    &:hover {
-        background-color: #1ab5b3;
     }
 
     &.slick-disabled {
@@ -866,4 +866,94 @@ li {
     &:before {
         content: "\f053";
     }
+}
+
+.col-2__contacts {
+    padding: 25px 0 0 25px;
+
+    height: 100vh;
+    background: url('../img/map.png') no-repeat center/cover;
+}
+
+.col-2__form-container {
+    padding: 25px;
+
+    width: 782px;
+    height: 467px;
+
+    background-color: #fff;
+}
+
+.form-container__top {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.post__text--width100 {
+    max-width: 720px;
+
+    padding: 5px 0 25px;
+}
+
+.form-container__bot {
+    padding-top: 25px;
+}
+
+.col-2__form {
+    padding-top: 20px;
+}
+
+.form__container {
+    display: grid;
+    grid-template-columns: 347px 364px;
+    grid-template-rows: 59px 59px 59px;
+    grid-gap: 10px;
+}
+
+.form__input {
+    padding-left: 20px;
+
+    width: 347px;
+    height: 59px;
+    border: 1px solid #eaeaea;
+    outline: none;
+
+    color: #848484;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.input__name {
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.input__email {
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.input__website {
+    grid-area: 3 / 1 / 3 / 1;
+}
+
+.form__textarea {
+    padding: 15px 0 0 20px;
+
+    grid-area: 1 / 2 / 3 / 2;
+
+    resize: none;
+    border: 1px solid #eaeaea;
+    outline: none;
+
+    color: #848484;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.form__btn {
+    border: 1px solid #eaeaea;
+    background-color: #1ab5b3;
+
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
 }
